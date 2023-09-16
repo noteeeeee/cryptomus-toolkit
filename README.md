@@ -1,23 +1,23 @@
-# Cryptomus SDK
+# Cryptomus Toolkit
 
-The Cryptomus SDK is a TypeScript library that provides a client interface for interacting with the Cryptomus API. It offers convenient methods for handling payment, payout, and webhook-related operations. This README provides an overview of the library and instructions for getting started.
+The Cryptomus Toolkit is a TypeScript library that provides a client interface for interacting with the Cryptomus API. It offers convenient methods for handling payment, payout, and webhook-related operations. This README provides an overview of the library and instructions for getting started.
 
 ## Installation
 
-You can install the Cryptomus SDK via npm:
+You can install the Cryptomus Toolkit via npm:
 
 ```bash
-npm install cryptomus-sdk
+npm install cryptomus-toolkit
 ```
 
 ## Usage
 
-To use the Cryptomus SDK in your project, follow these steps:
+To use the Cryptomus Toolkit in your project, follow these steps:
 
 1. Import the necessary classes:
 
 ```javascript
-import { CryptomusClient } from 'cryptomus-sdk';
+import { CryptomusClient } from 'cryptomus-toolkit';
 ```
 
 2. Initialize the `CryptomusClient` with your merchant UUID:
@@ -66,7 +66,7 @@ For detailed information on available methods and their parameters, refer to the
 
 ## Contributing
 
-We welcome contributions to the Cryptomus SDK. If you find a bug or have an enhancement in mind, please submit an issue or create a pull request on [GitHub](https://github.com/noteeeeee/cryptomus-sdk).
+We welcome contributions to the Cryptomus Toolkit. If you find a bug or have an enhancement in mind, please submit an issue or create a pull request on [GitHub](https://github.com/noteeeeee/cryptomus-toolkit).
 
 ## License
 
@@ -74,4 +74,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or support, please [open an issue](https://github.com/noteeeeee/cryptomus-sdk/issues) on GitHub.
+For any questions or support, please [open an issue](https://github.com/noteeeeee/cryptomus-toolkit/issues) on GitHub.
