@@ -1,6 +1,6 @@
 {
   "name": "cryptomus-toolkit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cryptomus Toolkit for TypeScript",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
