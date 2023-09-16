@@ -1,7 +1,7 @@
 {
-  "name": "cryptomus-sdk",
+  "name": "cryptomus-toolkit",
   "version": "1.0.0",
-  "description": "Cryptomus SDK for TypeScript",
+  "description": "Cryptomus Toolkit for TypeScript",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/noteeeeee/cryptomus-sdk"
+    "url": "git+https://github.com/noteeeeee/cryptomus-toolkit"
   },
   "files": [
     "lib/**/*"
@@ -23,9 +23,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/noteeeeee/cryptomus-sdk/issues"
+    "url": "https://github.com/noteeeeee/cryptomus-toolkit/issues"
   },
-  "homepage": "https://github.com/noteeeeee/cryptomus-sdk#readme",
+  "homepage": "https://github.com/noteeeeee/cryptomus-toolkit#readme",
   "devDependencies": {
     "@types/node": "^18.13.0",
     "typescript": "^4.9.5"
