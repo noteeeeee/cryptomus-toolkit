@@ -1,5 +1,7 @@
 # Cryptomus Toolkit
 
+[![npm](https://img.shields.io/npm/v/cryptomus-toolkit.svg)](https://www.npmjs.com/package/cryptomus-toolkit)
+
 The Cryptomus Toolkit is a TypeScript library that provides a client interface for interacting with the Cryptomus API. It offers convenient methods for handling payment, payout, and webhook-related operations. This README provides an overview of the library and instructions for getting started.
 
 ## Installation
