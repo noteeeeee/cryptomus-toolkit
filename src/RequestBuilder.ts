@@ -21,7 +21,6 @@ export class RequestBuilderException extends Error {
     responseCode: number,
     uri: string,
     errors: any[] = [],
-    previous: Error | null = null
   ) {
     super(message);
     this.method = uri;
@@ -79,13 +78,14 @@ export class RequestBuilder {
     };
 
     try {
-      const response = await axios.post(url, body, { headers });
+      const response = await axios.post(url, data, { headers });
       return response.data;
     } catch (error: any) {
       throw new RequestBuilderException(
         error.message,
         error.response?.status,
-        endpoint
+        endpoint,
+        error?.response?.data?.errors
       );
     }
   }
